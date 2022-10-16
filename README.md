@@ -11,4 +11,4 @@ https://ganlantou995.github.io/
  
 福建联通活动汇总链接
 
-![image](vx.png)
+![image](https://github.com/ganlantou995/ganlantou995.github.io/blob/main/VX.png)

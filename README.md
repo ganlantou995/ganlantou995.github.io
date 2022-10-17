@@ -10,5 +10,3 @@ https://ganlantou995.github.io/
 >福建电信活动汇总链接
 
 >福建联通活动汇总链接
-
-![image](https://github.com/ganlantou995/ganlantou995.github.io/blob/main/image/VX.png)

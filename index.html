@@ -42,7 +42,7 @@
                         <li class="nk-menu-item ">
                             <a href="https://ip.cn" class="nk-menu-link nk-ibx-action-item">
 
-                                <span class="nk-menu-text">IP查询</span>
+                                <span class="nk-menu-text">IP归属地查询</span>
                             </a>
                         </li>
                        
@@ -130,33 +130,30 @@
                         </div>
                         <select class="form-control" style="height: 30px ;white-space:nowrap" id="niubi" @click.passive="yuan"  class="form-control">
 						
-			    <option value="在这输入">	  
+			    <option value="在这输入">
 		            【自定义】输入下载链接
 			    </option>
-				
 			    <option value="https://game.gtimg.cn/images/nz/web202106/index/bc_part1.gif" selected>
                             【腾讯】腾讯游戏-静态资源
                             </option>
                             <option value="https://puui.qpic.cn/vpic_cover/g3346tki83w/g3346tki83w_hz.jpg">
-                            【腾讯】腾讯视频
-                            </option>							
+                            【腾讯】腾讯视频-缓存
+                            </option>
                             <option value="https://ossweb-img.qq.com/upload/adw/image/752/20211219/f4b5919ec683f49d8532cef90644b9ac.jpeg">
                             【腾讯】腾讯QQ
                             </option>
-
                             <option value="https://gw.alipayobjects.com/os/volans-demo/f44c302e-b704-4a70-bcc6-0214e37ca256/MiniProgramStudio-1.17.4.exe">
                             【阿里】支付宝开放平台①
                             </option>
                             <option value="https://gw.alipayobjects.com/os/rmsportal/PpisHyUkzJnZltrPyfuD.zip">
                             【阿里】支付宝开放平台②
-                            </option>						
+                            </option>
                             <option value="https://img.alicdn.com/imgextra/i1/O1CN01xA4P9S1JsW2WEg0e1_!!6000000001084-2-tps-2880-560.png">
                             【阿里】阿里图片CDN
                             </option>
                             <option value="https://gw.alicdn.com/tfscom/TB1fASCxhjaK1RjSZKzXXXVwXXa.jpg">
                             【阿里】阿里系
                             </option>
-
                             <option value="https://issuepcdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.17.5.19.exe">
                             【百度】百度网盘
                             </option>
@@ -166,63 +163,21 @@
                             <option value="https://app-center.cdn.bcebos.com/appcenter/sts/pcfile/1155177228/7beb2ee995aa8ea9b996171a56c76c5f.png">
                             【百度】图片CDN
                             </option>
-							
                             <option value="https://www.douyin.com/download/pc/obj/douyin-pc-client/7044145585217083655/releases/8522449/1.1.0/win32-ia32/douyin-v1.1.0-win32-ia32-douyin.exe">
                             【字节】抖音
                             </option>
                             <option value="https://lf9-cdn-tos.bytecdntp.com/cdn/yuntu-index/1.0.4/case/maiteng/detailbg.png">
                             【字节】静态资源
                             </option>
-
                             <option value="https://activity.hdslb.com/zzjs/20160608appDownload/img/pc/uwp.png">
                             【哔哩】B站①
                             </option>
                             <option value="https://s1.hdslb.com/bfs/static/game-web/duang/home/asserts/home_bg.e09be3a.png">
                             【哔哩】B站②
                             </option>
-
-                            <option value="https://x19.gdl.netease.com/MCLauncher_publish_1.8.0.35383.exe">
-                            【网易】客户端
-                            </option>
-                            <option value="https://pic-bucket.ws.126.net/photo/0003/2022-04-24/H5N2082C00AJ0003NOS.jpg">
-                            【网易】126网站
-                            </option>
-
-                            <option value="https://img10.360buyimg.com/live/jfs/t1/128947/12/26918/1361527/6260e71bE0ee85af5/ecaa17ea8dd3dddb.jpg">
-                            【京东】图片CDN①
-                            </option>
-                            <option value="https://img10.360buyimg.com/live/jfs/t1/128947/12/26918/1361527/6260e71bE0ee85af5/ecaa17ea8dd3dddb.jpg">
-                            【京东】图片CDN②
-                            </option>
-
-                            <option value="https://consumer-img.huawei.com/content/dam/huawei-cbg-site/cn/mkt/mobileservices/appgallery/download/PC107f1b3947c942ffaa14334a879065d8.2107261020.exe">
-                            【华为】客户端
-                            </option>
-                            <option value="https://dh5.cntv.myhwcdn.cn/asp/h5e/hls/1200/0303000a/3/default/ec48b9f8c76e49af842d4942914ad663/1.ts">
-                            【华为】直播源
-                            </option>
-
-                            <option value="https://cnbj0.fds.api.xiaomi.com/b2c-data-mishop/9b9d95e1ece27d5ec75205e5fe719ba5.apk">
-                            【小米】客户端apk
-                            </option>
-                            <option value="https://cdn.cnbj1.fds.api.mi-img.com/miui-13/phone/index_pc_1227.mp4">
-                            【小米】图片CDN
-                            </option>
-
-                            <option value="https://imgwsdl.vivo.com.cn/appstore/developer/soft/20210125/202101251051528awqa.apk">
-                            【VIVO】应用商城
-                            </option>
-                            <option value="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/funtouch/1651200648928/images/os2-jude-video.mp4">
-                            【VIVO】应用商城-静态资源
-                            </option>
-                            <option value="https://dsfs.oppo.com/oppo/shop-pc-v2/main/js/9fb472f.js">
-                            【OPPO】应用商城-静态资源
-                            </option>
-							
-
                             <option value="https://open.yun.139.com/static/img/case_bg_1.16716f8f.png">
                             【移动】移动云盘①
-                            </option>			
+                            </option>
                             <option value="https://open.yun.139.com/static/img/banner_bg_1.27bb1597.svg">
                             【移动】移动云盘②
                             </option>
@@ -240,7 +195,7 @@
                             </option>
                             <option value="https://img.cmvideo.cn/publish/noms/2022/10/14/1O3VIGPVP6HTS.jpg">
                             【移动】咪咕视频
-                            </option>				
+                            </option>
 			    <option value="https://freeserver.migufun.com/resource/beta/picture/system/20200723/20200723104326220_sdpic.png">
                             【移动】咪咕快游①
                             </option>
@@ -250,20 +205,52 @@
 			    <option value="https://freeserver.migufun.com/resource/beta/picture/system/20220130/20220130100301431_sdpic.jpg">
                             【移动】咪咕快游③
                             </option>
-				
                             <option value="https://vod-origin-rjzy.gdoss.xstore.ctyun.cn/5ca444c333bf4727babc7d154aabe559.mp4">
                             【电信】天翼云
                             </option>
-
                             <option value="https://m1.ad.10010.com/small_video/uploadImg/1669798519261.png">
                             【联通】联通官网-静态资源①
                             </option>
                             <option value="https://gec.10010.com/multi/unified-storage/video/202102/210208115fe139453000.mp4">
                             【联通】联通官网-静态资源②
                             </option>
-
-                            <option value="">↓↓以下其他源↓↓</option>			
-
+                            <option value="">👇国内节点👇</option>
+                            <option value="https://x19.gdl.netease.com/MCLauncher_publish_1.8.0.35383.exe">
+                            【网易】客户端
+                            </option>
+                            <option value="https://pic-bucket.ws.126.net/photo/0003/2022-04-24/H5N2082C00AJ0003NOS.jpg">
+                            【网易】126网站
+                            </option>
+                            <option value="https://img10.360buyimg.com/live/jfs/t1/128947/12/26918/1361527/6260e71bE0ee85af5/ecaa17ea8dd3dddb.jpg">
+                            【京东】图片CDN①
+                            </option>
+                            <option value="https://img10.360buyimg.com/live/jfs/t1/128947/12/26918/1361527/6260e71bE0ee85af5/ecaa17ea8dd3dddb.jpg">
+                            【京东】图片CDN②
+                            </option>
+                            <option value="https://consumer-img.huawei.com/content/dam/huawei-cbg-site/cn/mkt/mobileservices/appgallery/download/PC107f1b3947c942ffaa14334a879065d8.2107261020.exe">
+                            【华为】客户端
+                            </option>
+                            <option value="https://dh5.cntv.myhwcdn.cn/asp/h5e/hls/1200/0303000a/3/default/ec48b9f8c76e49af842d4942914ad663/1.ts">
+                            【华为】直播源
+                            </option>
+                            <option value="https://cnbj0.fds.api.xiaomi.com/b2c-data-mishop/9b9d95e1ece27d5ec75205e5fe719ba5.apk">
+                            【小米】客户端apk
+                            </option>
+                            <option value="https://cdn.cnbj1.fds.api.mi-img.com/miui-13/phone/index_pc_1227.mp4">
+                            【小米】图片CDN
+                            </option>
+                            <option value="https://static.smartisanos.cn/common/video/production/ocean/os-1-1710.mp4">
+                            【锤子】锤子OS
+                            </option>
+                            <option value="https://imgwsdl.vivo.com.cn/appstore/developer/soft/20210125/202101251051528awqa.apk">
+                            【VIVO】应用商城
+                            </option>
+                            <option value="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/funtouch/1651200648928/images/os2-jude-video.mp4">
+                            【VIVO】应用商城-静态资源
+                            </option>
+                            <option value="https://dsfs.oppo.com/oppo/shop-pc-v2/main/js/9fb472f.js">
+                            【OPPO】应用商城-静态资源
+                            </option>	
                             <option value="https://sta-op.douyucdn.cn/vod-index/2022/06/22/848adf3ae99d2be506026380c2ad42c1.png">
                             【斗鱼】图片CDN
                             </option>
@@ -282,7 +269,7 @@
                             <option value="https://gh.con.sh/https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/download/v2.21.12/Waifu2x-Extension-GUI-v2.21.12-Portable.7z">
                             【GitHub】文件加速
                             </option>
-							
+                            <option value="">👇海外节点👇</option>
                             <option value="https://cachefly.cachefly.net/200mb.test">
                             【国外】cachefly 200MB
 			    </option>
@@ -297,8 +284,7 @@
 			    </option>
                             <option value="https://emp.bbci.co.uk/emp/dashjs/3.2.0-8/dash.all.min.js">
                             【国外】BBC中文网
-			    </option>
-								
+			    </option>			
 
                         </select></p>
                         <div class="form-group">

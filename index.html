@@ -584,7 +584,23 @@
     window.event.returnValue=false;
   }
 }
-</script>
+</script>  
+ 
+  
+<script>document.oncontextmenu = function (event){
+if(window.event){
+event = window.event;
+}try{
+var the = event.srcElement;
+if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+return false;
+}
+return true;
+}catch (e){
+return false;
+}
+}
+</script>  
 <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/JkDmQhGmIj06sn4j/quote.js?theme=#1690FF,#333333,#999999,#333333,#FFFFFF,#1690FF,10&f=12&display=0,1,1,1,1,1,1,1"></script>
 
 </body>

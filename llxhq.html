@@ -125,7 +125,7 @@
                     <div class="card-inner mt-3">
                         <div class="nya-title nk-ibx-action-item progress-rating">
                             <span class="nk-menu-text font-weight-bold">免费使用-</span>
-                            <span class="nk-menu-text font-weight-bold">/公众号【橄榄头995】</span>
+                            <span class="nk-menu-text font-weight-bold">//公众号【橄榄头995】</span>
                         </div>
 	<label class="form-label">下载链接</label>
         <select class="form-control" style="height: 30px ;white-space:nowrap" id="niubi" @click.passive="yuan"  class="form-control">						
@@ -356,6 +356,35 @@
 <script src="static/js/script.js"></script>
 <script src="static/js/common.js"></script>
 <script language="javascript" type="text/javascript" src="https://cdn.staticfile.org/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+var a_idx = 0;
+jQuery(document).ready(function($) {
+    $("body").click(function(e) {
+        var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正" ,"法治", "爱国", "敬业", "诚信", "友善");
+        var $i = $("<span/>").text(a[a_idx]);
+        a_idx = (a_idx + 1) % a.length;
+        var x = e.pageX,
+        y = e.pageY;
+        $i.css({
+            "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+            "top": y - 20,
+            "left": x,
+            "position": "absolute",
+            "font-weight": "bold",
+            "color": "#ff6651"
+        });
+        $("body").append($i);
+        $i.animate({
+            "top": y - 180,
+            "opacity": 0
+        },
+        1500,
+        function() {
+            $i.remove();
+        });
+    });
+});
+</script>
 
 <script>
     var plugin_id = 5;

@@ -1,7 +1,7 @@
 
 # 流量消耗器
 
-https://ganlantou995.github.io/
+https://ganlantou995.github.io/llxhq
 
 # Wechat公众号【橄榄头995】 
 
